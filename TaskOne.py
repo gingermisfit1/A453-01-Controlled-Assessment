@@ -24,7 +24,7 @@ if __name__ == "__main__":
     var1 = getCurr('from')
     var2 = getCurr('to')
     var3 = float(input("Please type the amount of currency you wish to convert "))
-    print('Your converted ammount is {0:.2f}{1}'.format(getVal(var1,var2,var3),allowables[var2]))
+    print('Your converted ammount is {0:.2f}{1}'.format(getVal(var1,var2,var3),allowables[var2])) 
 
     
 # var1 = None
